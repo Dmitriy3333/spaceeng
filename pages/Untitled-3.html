@@ -1,0 +1,187 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/maint.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="/style/style.css">
+	<!-- InstanceBeginEditable name="doctitle" -->
+	<title>Документ без названия</title>
+	<!-- InstanceEndEditable -->
+	<!-- InstanceBeginEditable name="head" -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Open+Sans:wght@300&family=Play&family=Roboto&family=Roboto+Slab:wght@300&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+	<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
+	<script type='text/javascript' src='http://example.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+	  
+  <div class="nav">
+    <div class="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div></div> <!--Заглушка для выравнивания-->
+
+    <div style="display: flex">
+      <div class="buttons_words">
+        <a href="/index.html"><p>main</p></a>
+        <a href="#"><p>about</p></a>
+        <a href="/pages/test.php"><p>test</p></a>
+      </div>
+      <button class="settings"></button> 
+      <!-- <button class="profile"></button> -->
+    </div>
+  </div> <!--Конец nav-->
+  <div class="settings_block">
+    <label class="settings_font">Размер текста: <output class="pixels">19</output>px
+      <input class="size-setting" type="range" min="10" max="40" step="1" value="19">
+    </label>
+    <label class="settings_font_color">Изменить цвет текста <br>
+      <div>Цвет: </div> <div class="d"><input type="color" class="settings_color"></div>
+      <button class="color_but">Применить</button>
+    </label> 
+  </div>
+	<!--Меню в бургере-->
+	<div class="menublock">
+	  <ul class="mainMenu">
+		<li> Главная </li>
+		<li>Орбитальная механика</li>
+		<li>Устройство автоматики</li>
+		<li> Ракеты носители
+		  <ul>
+			<li>Устройство</li> 
+			<li>Создание</li>
+			<li>Материалы и химия</li>
+		  </ul>
+		</li>
+		<li>Искуственные спутники Земли
+		  <ul>
+			<li>Устройство</li>
+			<li>Создание</li>
+			<li>Материалы и химия</li>
+		  </ul>
+		</li>
+		<li>Двигатели и топливо</li>
+		<li>Электромеханника</li>
+		<li>Современные разработки</li>
+		<li>Проекты будущего</li>
+	  </ul>
+	</div>
+	<!--Главное меню-->
+	<div class="main">
+	  <div class="word">
+		  <span style="padding-top:290px">
+		  <!-- InstanceBeginEditable name="title" -->Космическая инженерия<!-- InstanceEndEditable -->
+		  </span>
+		  <!-- InstanceBeginEditable name="Mainnav" -->
+			<div class="nav-in-word">
+				<div style="display: flex">
+					<div class="buttons_words-bottom"> 
+						<a href="#"><p>Физика</p></a> 
+						<a href="#"><p>Космические аппараты</p></a> 
+						<a href="#"><p>Организация</p></a> 
+						<a href="#"><p>Подборки</p></a> 
+					</div>
+				</div>
+			 </div>
+			<!-- InstanceEndEditable -->
+		</div>
+	</div>
+
+<script>
+     
+  $('.burger').click(function() {
+    $('.burger span:nth-child(1)').toggleClass('first');
+  });
+
+  $('.burger').click(function() {
+    $('.burger span:nth-child(2)').toggleClass('second');
+  });
+
+  $('.burger').click(function() {
+    $('.burger span:nth-child(3)').toggleClass('third');
+  });
+	
+ </script>
+<button class="totop"></button> <!--Наверх-->
+<div class="close"><!-- зкрытие --></div>
+	
+	
+<div class="text">
+<!-- InstanceBeginEditable name="mainText" -->
+	<!--Текст-->
+<!-- InstanceEndEditable -->
+</div>
+
+<br><br><br><br><br>
+
+<footer>
+     <div class="footer-oglav">
+      <div class="oglav-left">
+		  <div style="flex-grow: 1;"> </div>
+<!--
+			<ul class="oglav-ul-top">  
+				<li><a href="#">Устройство автоматики</a></li>
+				<li><a href="#">Ракеты носители &#9660;	</a>
+			  <ul>
+				<li><a href="#">Устройство</a></li> 
+				<li><a href="#">Создание</a></li>
+				<li><a href="#">Материалы и химия</a></li>
+			  </ul>
+				</li>
+				<li><a href="#">Двигатели и топливо</a></li>  
+				<li><a href="#">Современные разработки</a></li>
+			</ul>
+-->
+		  <ul class="oglav-ul-top">  
+			<li><a href="../index.html">Главная</a></li>
+			<li><a href="organization.html">Организация &#9660;	</a>
+			  <ul>
+				<li><a href="organization.html#m0">Космические полеты </a></li> 
+				<li><a href="organization.html#m1">Карта предприятий</a></li>
+			  </ul>
+			</li>
+			<li><a href="about">Об авторе</a></li>
+			</ul>
+	</div>
+	<!-- ЛОГОТИП -->
+	<div class="oglav-logo">
+		<a href="../index.html" title="На главную"><div class="logo-footer"></div></a>
+	</div>
+      <div class="oglav-right">
+        <ul class="oglav-ul-top">
+			<li><a href="test.php">Тест</a></li>
+			<li><a href="spacecraft.html">Космические аппараты &#9660; </a>
+        		<ul>
+            		<li><a href="spacecraft.html#m0">Ракеты-носители</a></li>
+            		<li><a href="spacecraft.html#m1">Космические корабли</a></li>
+          		</ul>
+        	</li>        
+			<li><a href="big-slider.html">Подборки</a></li>
+		</ul>
+      </div>
+     </div> <!--Конец footer_oglav-->
+	
+      <div class="about">
+		<a href="http://na-lenskoy.ru/nauchno-tekhnicheskij-otdel/ot-stranichki-k-web-sajtu" target="_blank" class="footer-ddut"></a>
+		<div class="share"> 
+		  <a href="https://www.facebook.com/sharer/sharer.php?u=https://dmitriy3333.github.io/new-web/" target="_blank"><button title="Поделиться в Facebook"></button></a>
+		  <a href="https://telegram.me/share/url?url=https://dmitriy3333.github.io/new-web/&amp;text='Космические технологии'" target="_blank"><button title="Поделиться в Telegram"></button></a>
+		  <a href="https://vk.com/share.php?url=https://vk.com/&title=Сайт 'Космические технологии'&description=&image=https://ipel.com/wp-content/uploads/2019/04/architecture-building-business-256381.jpg&noparse=false " target="_blank"><button title="Поделиться в ВКонтакте"></button></a>
+		  <a href="https://twitter.com/share?url=https://dmitriy3333.github.io/new-web/&text='Космические технологии'" target="_blank"><button title="Поделиться в Twitter"></button></a>
+		  <a onclick="copy_link()"><button title="Копировать ссылку на сайт" value="https://dmitriy3333.github.io/new-web/" id="myInput" class="copy_b"></button><div class="copy">Скопированно!</div></a> 
+		</div>
+		  <div class="footer-right">
+			 <p>&copy; 2021 г. <br> Автор сайта Карпенко Дмитрий.<br> Руководитель: Петриченко В.А.</p>
+		  </div>
+      </div>
+</footer>
+	<!-- InstanceBeginEditable name="scriptRegion" -->
+	<!--Скрипты ставить сюда-->
+	<!-- InstanceEndEditable -->
+<script src="/script/script.js"></script>
+</body>
+<!-- InstanceEnd --></html>
