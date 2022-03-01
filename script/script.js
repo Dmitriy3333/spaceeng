@@ -34,9 +34,9 @@ toTop.onclick = function () {
 var menu = document.querySelector(".burger"); //кнопка
 var menub = document.querySelector(".menublock"); //блок
 
-menu.onclick = function () {
-  menub.classList.toggle('menublockafter')  
-}
+// menu.onclick = function () {
+//   menub.classList.toggle('menublockafter')  
+// }
 
 // модальные изображения 
 var imgs = document.querySelectorAll('.myImg'); // картинка
