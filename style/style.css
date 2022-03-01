@@ -1114,23 +1114,23 @@ display: block;
 }
 
 .crafts_but button:nth-child(1) {
-  background-image: url('/images/crafts/souz.png');
+  background-image: url('../images/crafts/souz.png');
 }
 
 .crafts_but button:nth-child(2) {
-  background-image: url('/images/crafts/proton.png');
+  background-image: url('../images/crafts/proton.png');
 }
 
 .crafts_but button:nth-child(3) {
-  background-image: url('/images/crafts/china.png');
+  background-image: url('../images/crafts/china.png');
 }
 
 .crafts_but button:nth-child(4) {
-  background-image: url('/images/crafts/falcon.png');
+  background-image: url('../images/crafts/falcon.png');
 }
 
 .crafts_but button:nth-child(5) {
-  background-image: url('/images/crafts/starship.png');
+  background-image: url('../images/crafts/starship.png');
 }
 
 .activate {
