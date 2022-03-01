@@ -31,8 +31,8 @@ toTop.onclick = function () {
 }
 
 //блок меню
-var menu = document.querySelector(".burger"); //кнопка
-var menub = document.querySelector(".menublock"); //блок
+// var menu = document.querySelector(".burger"); //кнопка
+// var menub = document.querySelector(".menublock"); //блок
 
 // menu.onclick = function () {
 //   menub.classList.toggle('menublockafter')  
