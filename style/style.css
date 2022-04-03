@@ -1051,6 +1051,7 @@ display: block;
 }
 
 @media screen and (max-width: 1000px) {
+  
   .disc_flex {
     display: block;
   }
@@ -1144,6 +1145,9 @@ display: block;
 }
 
 @media screen and (max-device-width: 780px) {
+  .quote {
+    font-size: 13px !important;
+  }
   .color_but{
     font-size: 25px;
     padding: 5px 10px
@@ -1188,7 +1192,7 @@ display: block;
     float: none !important;
   }
   .text  p {
-    font-size: 13px;
+    font-size: 12px;
   }
   .oglav-right a,.oglav-left a {
     font-size: 23px;
@@ -1266,6 +1270,10 @@ display: block;
     padding: 14px 10px !important;
     font-size: 31px;
   }
+
+.footer-right {
+  width: 260px;
+}
 
   .modal-content-open {
     transform: scale(1.2) !important;
