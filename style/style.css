@@ -1064,12 +1064,19 @@ display: block;
     width: auto;
     border: none 
   }
+  .imp {
+    width: 80% !important;
+    margin-left: 5% !important;
+
+  }
 }
 
 
 
 
 .crafts_but {
+  margin-right: -100px;
+  margin-left: -100px;
   display: flex;
   /* width: 70%; */
   /* margin-left: 15%; */
@@ -1417,6 +1424,16 @@ display: block;
     width: 300px !important;
   }
 
+  .images_for_main_crafts {
+    flex-direction: column;
+  }
+  .crafts_but button {
+    margin: 12px;
+    width: 141px;
+    font-size: 19px;
+    height: 263px;
+    padding-top: 219px;
+}
 }
 
 .crafts_active {

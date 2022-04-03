@@ -181,7 +181,7 @@ p {
 @media screen and (max-device-width: 780px) {
     .discription_photo {
         width: 95% !important;
-        height: 85%;
+        height: 84%;
         top: 21.5%;
         left: 2.5%
     }
@@ -216,8 +216,8 @@ p {
     }
 
     .back {
-        bottom: 90%;
-        left: 67%;
+        bottom: 87%;
+        left: 68%;
         font-size: 40px;
     }
 }
