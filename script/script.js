@@ -26,7 +26,7 @@ window.onscroll = function () {
     toTop.style.display = "none";
   }
 } 
-toTop.onclick = function () {
+toTop.onclick = function() {
   window.scrollTo(0, 0);
 }
 
@@ -45,8 +45,7 @@ var modalImg = document.getElementById('img01'); // увеличенная ка�
 var caption = document.getElementById('caption'); // описание 
 
 for(img of imgs) {
-
-img.onclick = function () {
+  img.onclick = function() {
   modal.style.display = 'block';
   modalImg.src = this.src;
   caption.innerHTML = this.alt;
@@ -71,6 +70,8 @@ settings_button.onclick = function () {
   settings_block.classList.toggle('settings_block_open')
 }
 
+
+
 // Размер текста
 var range_fontSize = document.querySelector('.size-setting');
 var text_size_news = document.querySelectorAll('.text p, .text a, .text span');
@@ -79,17 +80,28 @@ var pixels = document.querySelector('.pixels');
 var settings_color = document.querySelector('.settings_color'); // палитра 
 var color_but = document.querySelector('.color_but'); // кнопка переключения цвета
 
+
  color_but.onclick = function() {
    for (text_color_new of text_color_news) {
-     text_color_new.style.color = settings_color.value;
+      text_color_new.style.color = settings_color.value;
+      localStorage.setItem('color', settings_color.value);
    }
   }
+
+for (text_color_new of text_color_news) {
+  text_color_new.style.color = localStorage.color
+}
 
 range_fontSize.oninput = function() {
     for (text_size_new of text_size_news) {
     pixels.innerHTML = range_fontSize.value;
     text_size_new.style.fontSize = range_fontSize.value + 'px';
+    localStorage.setItem('size', range_fontSize.value + 'px')
   } 
+}
+
+for (text_size_new of text_size_news) {
+  text_size_new.style.fontSize = localStorage.size
 }
     
 function copy_link() {

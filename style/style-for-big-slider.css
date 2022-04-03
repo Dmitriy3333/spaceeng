@@ -45,6 +45,12 @@ body {
     overflow: auto;
 }
 
+.discription_photo img {
+    width: 50%;
+    margin-left: 25%;
+}
+
+
 .buts {
     position: fixed;
     top: 40px; 
@@ -109,7 +115,7 @@ p {
 
 @media (max-width: 990px) {
     .discription_photo {
-        width: 50%;
+        width: 67% !important;
         height: 100%;
         top: 15%;
         position: absolute;
@@ -128,7 +134,7 @@ p {
     .variants li {
         margin: 20px 0px 20px 0px;
         cursor: pointer;
-        font-size: 2.9vh;            
+        font-size: 2.3vh;            
         list-style:circle;
 
         line-height: 30px;
@@ -136,7 +142,7 @@ p {
     }
 
     .variants {
-        width: 45%;
+        width: 40%;
         position: fixed;
         z-index: 100;
         color: white;
@@ -145,9 +151,15 @@ p {
     }
 
     .back {
-        left: 60%;
-        bottom: 85%;
-        font-size: 2.5vh;
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 2.8vh;
+    }
+
+    .buts button {
+        font-size: 2.8vh;
     }
 }
 
@@ -168,21 +180,21 @@ p {
 
 @media screen and (max-device-width: 780px) {
     .discription_photo {
-        width: 95%;
-        height: 92%;
-        top: 35%
+        width: 95% !important;
+        height: 85%;
+        top: 19%
     }
 
     .variants li {
-        font-size: 2.6vh;            
+        font-size: 2.1vh;            
         line-height: 60px;
-        list-style:circle;
+        list-style: circle;
     }
 
     .variants {
         width: 100%;
         left: 30px;
-        top: 15%;
+        top: 6%;
     }
 
     h1 {
@@ -190,7 +202,7 @@ p {
     }
     
     p {
-        font-size: 2.2vh;
+        font-size: 22px;
     }
 
     .buts {
@@ -199,6 +211,12 @@ p {
     }
     
     .buts button {
-        font-size: 2.5vh;
+        font-size: 2.3vh;
+    }
+
+    .back {
+        bottom: 90%;
+        left: 67%;
+        font-size: 40px;
     }
 }

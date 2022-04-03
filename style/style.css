@@ -553,7 +553,7 @@ body::-webkit-scrollbar{
 }
 
 .buttons_words {
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: #fff; 
   height: 66px;
   display: flex;
@@ -567,7 +567,7 @@ body::-webkit-scrollbar{
   border-width: 0px 0px 3px 0px;
   border-color: rgba(255, 255, 255, 0.39);
   border-style: solid;
-  padding-top: 21.3px;
+  padding-top: 22.3px;
   margin: 0px 2.7px;
   cursor: pointer;
   transition: .5s;
@@ -835,6 +835,7 @@ background-color: #02250ccc;
 
 
 .quote {
+  font-size: 21px;
   color: #4b589e;
   text-align: end;
   padding-top: 20px; 
@@ -1429,7 +1430,7 @@ display: block;
   box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.31);
 
   background-color: rgb(240, 240, 240);
-  width: 250px;
+  width: 335px;
   height: 380px;
   display: none;
   position: absolute;
@@ -1502,9 +1503,9 @@ display: block;
 }
 
 .red_img {
-  width: 87%;
+  width: 76%;
   margin-top: 10px;
-  margin-left: 5%;
+  margin-left: 12%;
   border-radius: 7px;
 }
 
@@ -1539,3 +1540,12 @@ display: block;
       padding: 0px;
     }
   } 
+
+
+  
+h1.color_green {
+  color:rgb(0, 85, 34);
+  font-family: 'Comfortaa', cursive !important;
+  font-size: 30px;
+  font-weight: 300;
+}
