@@ -1191,8 +1191,8 @@ display: block;
   .myImg {
     float: none !important;
   }
-  .text  p {
-    font-size: 12px;
+  .text p {
+    font-size: 14px;
   }
   .oglav-right a,.oglav-left a {
     font-size: 23px;
@@ -1271,9 +1271,9 @@ display: block;
     font-size: 31px;
   }
 
-.footer-right {
-  width: 260px;
-}
+  .footer-right {
+    width: 260px;
+  }
 
   .modal-content-open {
     transform: scale(1.2) !important;
