@@ -9,6 +9,15 @@
   display: none;
 }
 
+#name {
+  border: 1px solid rgb(1, 95, 39);
+  border-radius: 5px;
+  width: 200px;
+  font-size: 20px;
+  padding: 2px 10px;
+  margin-top: 15px;
+}
+
 .answer {
   display: none;
   width: 35vw;
@@ -39,19 +48,6 @@
   padding-bottom: 20px;
 }
 
-@media screen and (max-width: 1000px) { 
-  .maintest div {
-    width: 90%;
-  }
-
-  .but {
-    font-size: 40px !important;
-  }
-
-  h1.color_green {
-    font-size: 11px !important;
-  }
-}
 
 
 .maintest div img {
@@ -134,14 +130,7 @@
   color:rgb(0, 85, 34)
 }
 
-#name {
-  border: 1px solid rgb(1, 95, 39);
-  border-radius: 5px;
-  width: 200px;
-  font-size: 20px;
-  padding: 2px 10px;
-  margin-top: 15px;
-}
+
 
 .color_green {
   color:rgb(0, 85, 34);
@@ -157,4 +146,108 @@ h1.color_green {
   font-family: 'Comfortaa', cursive !important;
   font-size: 30px;
   font-weight: 300;
+}
+
+@media (max-width: 1000px) {
+  #name {
+    width: 366px;
+    font-size: 30px;
+    padding: 6px 16px;
+    margin-top: 18px;
+}
+
+h1.color_green {
+  font-size: 20px !important;
+  margin-top: -15px !important;
+
+}
+
+
+.maintest div {
+  width: 95%;
+  margin: 20px 10px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+
+
+.maintest div img {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.maintest div h1 {
+  text-align: left;
+  margin-left: 40px;
+}
+
+.but {
+  width: 90%;
+  border: none;
+  font-size: 25px;
+  text-align: left;
+  background-color: rgb(216, 216, 216);
+  border-radius: 5px;
+  margin: 4px 0px;
+  margin-left: 5%;
+  padding: 5px 20px;
+}
+
+}
+
+
+@media screen and (max-device-width: 1100px) { 
+  #name {
+    border-radius: 5px;
+    width: 366px;
+    font-size: 30px;
+    padding: 6px 16px;
+    margin-top: 18px;
+}
+
+  .answer p {
+    font-size: 32px;
+  }
+
+  .maintest div {
+    width: 90%;
+  }
+
+  .but {
+    font-size: 40px !important;
+  }
+
+  h1.color_green {
+    font-size: 14px;
+    margin-top: -45px;
+  }
+
+  .getAnswer {
+    padding: 8px 19px;
+    font-size: 30px !important;
+  }
+
+  .answer {
+    width: 61vw;
+    height: 27vh;
+    padding-top: 30px;
+    font-size: 40px;
+    top: 43%;
+    border-radius: 20px;
+  }
+
+  .message p {
+    font-size: 34px;
+  }
+
+  .item-price{
+    font-size: 41px;
+  }
+
+  .date {
+    font-size: 19px !important;
+  }
 }

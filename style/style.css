@@ -690,7 +690,7 @@ a.footer-ddut:hover {
   height: 100%;
   background-image: url('../images/logo-v-1.0.svg');
   background-repeat: no-repeat;
-  background-size: 60%;
+  background-size: calc(min(240px, 60%));
   background-position: center;
  }
  @media screen and (max-width: 1200px) {
@@ -734,6 +734,13 @@ a.footer-ddut:hover {
 }
 
 @media screen and (max-width: 1000px) {
+  .images_for_main_crafts {
+    flex-direction: column;
+  }
+
+  .img_craft {
+    width: 90% !important
+  }
 
   .oglav-logo {
     display: none;
@@ -1075,8 +1082,6 @@ display: block;
 
 
 .crafts_but {
-  margin-right: -100px;
-  margin-left: -100px;
   display: flex;
   /* width: 70%; */
   /* margin-left: 15%; */
@@ -1152,6 +1157,13 @@ display: block;
 }
 
 @media screen and (max-device-width: 780px) {
+  .map {
+    margin: 20px !important;
+}
+  .crafts_but {
+    margin-right: -100px;
+    margin-left: -100px
+  }
   .quote {
     font-size: 13px !important;
   }
@@ -1444,7 +1456,7 @@ display: block;
 
 
 .map {
-  margin: -40px
+  margin: -30px
 }
 
 
@@ -1453,7 +1465,7 @@ display: block;
   z-index: 50;
   border-radius: 20px;
   box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.31);
-
+  transition: 0ms !important;
   background-color: rgb(240, 240, 240);
   width: 335px;
   height: 380px;
